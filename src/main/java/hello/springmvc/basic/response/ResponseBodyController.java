@@ -35,7 +35,7 @@ public class ResponseBodyController {
     @GetMapping("/response-bdoy-json-v1")
     public ResponseEntity<HelloData> responseBodyJsonV1(){
         HelloData helloData = new HelloData();
-        helloData.setUsername("userA");
+        helloData.setUsername("userAA");
         helloData.setAge(20);
         return new ResponseEntity<>(helloData, HttpStatus.OK);
     }
